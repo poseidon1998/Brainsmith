@@ -1,0 +1,24 @@
+{
+  "name": "brainsmith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poseidon1998/Brainsmith.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poseidon1998/Brainsmith/issues"
+  },
+  "homepage": "https://github.com/poseidon1998/Brainsmith#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
