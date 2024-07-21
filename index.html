@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAINSMITH</title>
+    <link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+    <header>
+        <h1>BRAINSMITH</h1>
+    </header>
+    <div id="container">
+        <div class="dropdown-container">
+            <label for="dropdown1">Biosample:</label>
+            <div class="custom-select-wrapper">
+                <div id="dropdown1-input" class="custom-select" readonly placeholder="Select options"></div>
+                <div id="dropdown1" class="dropdown-content"></div>
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <label for="dropdown2">Area:</label>
+            <div class="custom-select-wrapper">
+                <div id="dropdown2-input" class="custom-select" readonly placeholder="Select options"></div>
+                <div id="dropdown2" class="dropdown-content"></div>
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <label for="dropdown3">Region_Ids:</label>
+            <div class="custom-select-wrapper">
+                <div id="dropdown3-input" class="custom-select" readonly placeholder="Select options"></div>
+                <div id="dropdown3" class="dropdown-content"></div>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <div id="loader" class="loader"></div>
+    <script src="app/script.js"></script>
+</body>
+</html>
